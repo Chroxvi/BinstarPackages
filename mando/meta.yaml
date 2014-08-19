@@ -1,0 +1,29 @@
+package:
+  name: mando
+  version: "0.3.1"
+
+source:
+  fn: mando-0.3.1.tar.gz
+  url: https://pypi.python.org/packages/source/m/mando/mando-0.3.1.tar.gz
+  md5: 8bc4c5cd712d16f184f650c3d6dfb4b6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - mando
+    - mando.tests
+
+about:
+  home: https://mando.readthedocs.org/
+  license: MIT License
+  summary: 'Create Python CLI apps with little to no effort at all!'

@@ -1,0 +1,44 @@
+package:
+  name: radon
+  version: "0.5.1"
+
+source:
+  fn: radon-0.5.1.tar.gz
+  url: https://pypi.python.org/packages/source/r/radon/radon-0.5.1.tar.gz
+  md5: 52ba9c1ad49269b4d838e09e3d92e6d0
+  patches:
+    - setup_py_no_tests_package.patch
+
+build:
+  entry_points:
+    - radon = radon:main
+
+  number: 0
+
+requirements:
+  build:
+    - python
+    - distribute
+    - mando
+    - colorama
+    - pathfinder
+
+  run:
+    - python
+    - mando
+    - colorama
+    - pathfinder
+
+test:
+  imports:
+    - radon
+    - radon.pathfinder
+
+  commands:
+    - radon --help
+
+about:
+  home: https://radon.readthedocs.org/
+  license: MIT License
+  summary: 'Code Metrics in Python'
+

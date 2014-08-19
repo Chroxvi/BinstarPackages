@@ -1,0 +1,28 @@
+package:
+  name: pathfinder
+  version: "0.5.3"
+
+source:
+  fn: pathfinder-0.5.3.tar.gz
+  url: https://pypi.python.org/packages/source/p/pathfinder/pathfinder-0.5.3.tar.gz
+  md5: 37884efb31c70f47151154d0dee07c10
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - distribute
+
+  run:
+    - python
+
+test:
+  imports:
+    - pathfinder
+
+about:
+  home: http://jkeyes.github.com/pathfinder/
+  license: MIT License
+  summary: 'Pathfinder os.walk for humans'

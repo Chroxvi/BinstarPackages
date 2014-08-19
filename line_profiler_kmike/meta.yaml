@@ -1,0 +1,28 @@
+package:
+  name: line_profiler_kmike
+  version: 1.0b3.dev7999f21
+
+source:
+  hg_url: https://bitbucket.org/kmike/line_profiler
+  hg_tag: 7999f21
+
+build:
+  binary_relocation: True
+  number: 0
+
+requirements:
+  build:
+    - python
+    - cython
+
+  run:
+    - python
+
+test:
+  imports:
+    - line_profiler
+
+about:
+  home: https://bitbucket.org/kmike/line_profiler/overview
+  license: BSD License
+  summary: 'Line-by-line profiler with Python 3 support.'

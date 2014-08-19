@@ -1,13 +1,11 @@
 package:
   name: radon
-  version: "0.5.1"
+  version: "1.0"
 
 source:
-  fn: radon-0.5.1.tar.gz
-  url: https://pypi.python.org/packages/source/r/radon/radon-0.5.1.tar.gz
-  md5: 52ba9c1ad49269b4d838e09e3d92e6d0
-  patches:
-    - setup_py_no_tests_package.patch
+  fn: radon-1.0.tar.gz
+  url: https://pypi.python.org/packages/source/r/radon/radon-1.0.tar.gz
+  md5: 9613629c25a5cb9b4bb5add223bdb2bc
 
 build:
   entry_points:
@@ -21,18 +19,15 @@ requirements:
     - distribute
     - mando
     - colorama
-    - pathfinder
 
   run:
     - python
     - mando
     - colorama
-    - pathfinder
 
 test:
   imports:
     - radon
-    - radon.pathfinder
 
   commands:
     - radon --help

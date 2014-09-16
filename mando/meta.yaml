@@ -1,11 +1,11 @@
 package:
   name: mando
-  version: "0.3.1"
+  version: "0.3.2"
 
 source:
-  fn: mando-0.3.1.tar.gz
-  url: https://pypi.python.org/packages/source/m/mando/mando-0.3.1.tar.gz
-  md5: 8bc4c5cd712d16f184f650c3d6dfb4b6
+  fn: mando-0.3.2.tar.gz
+  url: https://pypi.python.org/packages/source/m/mando/mando-0.3.2.tar.gz
+  md5: d1bff21b490351a78129a8bb97a358e5
 
 build:
   number: 0

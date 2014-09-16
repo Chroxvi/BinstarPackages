@@ -1,11 +1,11 @@
 package:
   name: sphinxcontrib-napoleon
-  version: "0.2.7"
+  version: "0.2.8"
 
 source:
-  fn: sphinxcontrib-napoleon-0.2.7.tar.gz
-  url: https://pypi.python.org/packages/source/s/sphinxcontrib-napoleon/sphinxcontrib-napoleon-0.2.7.tar.gz
-  md5: 001ee10b53eba1361738ed126cd6deb2
+  fn: sphinxcontrib-napoleon-0.2.8.tar.gz
+  url: https://pypi.python.org/packages/source/s/sphinxcontrib-napoleon/sphinxcontrib-napoleon-0.2.8.tar.gz
+  md5: 004abec2393a8743a150a9d64a85d517
   patches:
    # List any patch files here
     - setup_py_no_tests_package.patch
@@ -21,12 +21,10 @@ requirements:
   build:
     - python
     - setuptools
-    - sphinx
 
   run:
     - python
-    - distribute
-    - sphinx
+    - sphinx 1.2*
 
 test:
   # Python imports

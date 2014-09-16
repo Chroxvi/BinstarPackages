@@ -1,11 +1,11 @@
 package:
   name: radon
-  version: "1.0"
+  version: "1.1.1"
 
 source:
-  fn: radon-1.0.tar.gz
-  url: https://pypi.python.org/packages/source/r/radon/radon-1.0.tar.gz
-  md5: 9613629c25a5cb9b4bb5add223bdb2bc
+  fn: radon-1.1.1.tar.gz
+  url: https://pypi.python.org/packages/source/r/radon/radon-1.1.1.tar.gz
+  md5: fde2e27dd97e390c94c6d4b04abad5c4
 
 build:
   entry_points:

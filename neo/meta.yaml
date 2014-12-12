@@ -1,0 +1,36 @@
+package:
+  name: neo
+  version: "0.3.3"
+
+source:
+  fn: neo-0.3.3.tar.gz
+  url: https://pypi.python.org/packages/source/n/neo/neo-0.3.3.tar.gz
+  md5: 98e7e8948158f4492fc94d9d44367c91
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy >=1.3.0
+    - quantities >=0.9.0
+
+  run:
+    - python
+    - numpy >=1.3.0
+    - quantities >=0.9.0
+
+test:
+  imports:
+    - neo
+    - neo.core
+    - neo.io
+    - neo.test
+    - neo.test.iotest
+
+about:
+  home: http://neuralensemble.org/neo
+  license: BSD License
+  summary: 'Neo is a package for representing electrophysiology data in Python, together with support for reading a wide range of neurophysiology file formats'

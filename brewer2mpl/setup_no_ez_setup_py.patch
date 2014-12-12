@@ -1,0 +1,13 @@
+--- setup.py	2014-09-19 05:57:59.000000000 +0200
++++ setup_no_ez_setup.py	2014-12-12 16:48:13.875692363 +0100
+@@ -1,9 +1,6 @@
+-from ez_setup import use_setuptools
+-use_setuptools()
+-
+-from setuptools import setup
++from distutils.core import setup
+ 
+ with open('README.rst', 'r') as f:
+     long_description = f.read()
+ 
+ setup(

@@ -1,11 +1,13 @@
 package:
   name: brewer2mpl
-  version: "1.4"
+  version: "1.4.1"
 
 source:
-  fn: brewer2mpl-1.4.tar.gz
-  url: https://pypi.python.org/packages/source/b/brewer2mpl/brewer2mpl-1.4.tar.gz
-  md5: 49b7f7de78a5a47021aee91bee543026
+  fn: brewer2mpl-1.4.1.tar.gz
+  url: https://pypi.python.org/packages/source/b/brewer2mpl/brewer2mpl-1.4.1.tar.gz
+  md5: f8cd1fbb9f5d836a3a095b1ca9d58fc2
+  patches:
+    - setup_no_ez_setup_py.patch
 
 build:
   number: 0
@@ -13,9 +15,11 @@ build:
 requirements:
   build:
     - python
+    - distribute
 
   run:
     - python
+    - distribute
 
 test:
   imports:

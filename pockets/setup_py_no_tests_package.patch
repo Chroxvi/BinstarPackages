@@ -1,0 +1,13 @@
+--- setup.py	2015-02-19 03:14:51.000000000 +0100
++++ setup_no_tests.py	2015-03-17 10:40:14.631172196 +0100
+@@ -37,9 +37,9 @@
+         'Programming Language :: Python :: 2',
+         'Programming Language :: Python :: 3',
+         'Topic :: Utilities',
+     ],
+     platforms='any',
+-    packages=find_packages(),
++    packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
+     install_requires=reqs,
+     tests_require=test_reqs
+ )

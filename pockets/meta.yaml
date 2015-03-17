@@ -1,0 +1,32 @@
+package:
+  name: pockets
+  version: "0.2.3"
+
+source:
+  fn: pockets-0.2.3.tar.gz
+  url: https://pypi.python.org/packages/source/p/pockets/pockets-0.2.3.tar.gz
+  md5: 6a5f7cf2de7b106c801637f8b580349b
+  patches:
+    - setup_py_no_tests_package.patch
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - six >=1.7
+
+  run:
+    - python
+    - six >=1.7
+
+test:
+  imports:
+    - pockets
+
+about:
+  home: http://pockets.readthedocs.org
+  license: BSD License
+  summary: 'A collection of helpful Python tools!'

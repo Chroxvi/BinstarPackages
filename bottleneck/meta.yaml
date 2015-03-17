@@ -1,11 +1,11 @@
 package:
   name: bottleneck
-  version: "0.8.0"
+  version: "1.0.0"
 
 source:
-  fn: Bottleneck-0.8.0.tar.gz
-  url: https://pypi.python.org/packages/source/B/Bottleneck/Bottleneck-0.8.0.tar.gz
-  md5: 1a363fa35ce521eebb838e1bd6520e24
+  fn: Bottleneck-1.0.0.tar.gz
+  url: https://pypi.python.org/packages/source/B/Bottleneck/Bottleneck-1.0.0.tar.gz
+  md5: 380fa6f275bd24f27e7cf0e0d752f5d2
 
 build:
   number: 0
@@ -14,11 +14,11 @@ requirements:
   build:
     - python
     - setuptools
-    - numpy >=1.8
+    - numpy >=1.9.1
 
   run:
     - python
-    - numpy >=1.8
+    - numpy >=1.9.1
 
 test:
   imports:

@@ -1,11 +1,11 @@
 package:
   name: pockets
-  version: "0.2.3"
+  version: "0.2.4"
 
 source:
-  fn: pockets-0.2.3.tar.gz
-  url: https://pypi.python.org/packages/source/p/pockets/pockets-0.2.3.tar.gz
-  md5: 6a5f7cf2de7b106c801637f8b580349b
+  fn: pockets-0.2.4.tar.gz
+  url: https://pypi.python.org/packages/source/p/pockets/pockets-0.2.4.tar.gz
+  md5: 92eff6116937edfed56a8ed44bb3b99b
   patches:
     - setup_py_no_tests_package.patch
 
@@ -16,11 +16,11 @@ requirements:
   build:
     - python
     - setuptools
-    - six >=1.7
+    - six >=1.5.2
 
   run:
     - python
-    - six >=1.7
+    - six >=1.5.2
 
 test:
   imports:

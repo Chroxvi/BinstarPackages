@@ -1,11 +1,11 @@
 package:
   name: radon
-  version: "1.2"
+  version: "1.2.1"
 
 source:
-  fn: radon-1.2.tar.gz
-  url: https://pypi.python.org/packages/source/r/radon/radon-1.2.tar.gz
-  md5: a4c661620ff2416475fab4a03c8db125
+  fn: radon-1.2.1.tar.gz
+  url: https://pypi.python.org/packages/source/r/radon/radon-1.2.1.tar.gz
+  md5: 6305d2adfefc85e0066bdda7ac849422
 
 build:
   entry_points:
@@ -36,4 +36,3 @@ about:
   home: https://radon.readthedocs.org/
   license: MIT License
   summary: 'Code Metrics in Python'
-

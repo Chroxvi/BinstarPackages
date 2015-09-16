@@ -1,13 +1,13 @@
 BinstarPackages
 ===============
 
-Conda recipes for the packages available at the binstar channel https://binstar.org/Chroxvi
+Conda recipes for the packages available at the anaconda.org channel https://anaconda.org/Chroxvi (formerly https://binstar.org/Chroxvi)
 
 Issue the following command to use this binstar channel with Conda:
 
 .. code:: bash
 
-    conda config --add channels https://conda.binstar.org/chroxvi
+    conda config --add channels https://conda.anaconda.org/chroxvi
 
 The channel primarily holds packages that are useful in scientific computing.
 

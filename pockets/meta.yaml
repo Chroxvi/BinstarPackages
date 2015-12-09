@@ -1,11 +1,11 @@
 package:
   name: pockets
-  version: "0.2.4"
+  version: "0.3"
 
 source:
-  fn: pockets-0.2.4.tar.gz
-  url: https://pypi.python.org/packages/source/p/pockets/pockets-0.2.4.tar.gz
-  md5: 92eff6116937edfed56a8ed44bb3b99b
+  fn: pockets-0.3.tar.gz
+  url: https://pypi.python.org/packages/source/p/pockets/pockets-0.3.tar.gz
+  md5: 4d2471eefcaa509a4d358d1858ba7493
   patches:
     - setup_py_no_tests_package.patch
 

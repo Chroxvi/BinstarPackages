@@ -1,11 +1,11 @@
 package:
   name: sphinxcontrib-napoleon
-  version: "0.3.11"
+  version: "0.4.3"
 
 source:
-  fn: sphinxcontrib-napoleon-0.3.11.tar.gz
-  url: https://pypi.python.org/packages/source/s/sphinxcontrib-napoleon/sphinxcontrib-napoleon-0.3.11.tar.gz
-  md5: caa1dd3a92d38a1448368799c10006c7
+  fn: sphinxcontrib-napoleon-0.4.3.tar.gz
+  url: https://pypi.python.org/packages/source/s/sphinxcontrib-napoleon/sphinxcontrib-napoleon-0.4.3.tar.gz
+  md5: 088b3cbe63519497b5546c9f36b292db
   patches:
     - setup_py_no_tests_package.patch
 

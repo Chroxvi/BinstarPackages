@@ -1,11 +1,11 @@
 package:
   name: mando
-  version: "0.3.3"
+  version: "0.4"
 
 source:
-  fn: mando-0.3.3.tar.gz
-  url: https://pypi.python.org/packages/source/m/mando/mando-0.3.3.tar.gz
-  md5: 4244d87684a3c49b888dc702589a7d5b
+  fn: mando-0.4.tar.gz
+  url: https://pypi.python.org/packages/source/m/mando/mando-0.4.tar.gz
+  md5: 1d3fe2ab518830d8984218d7b01b4631
 
 build:
   number: 0
@@ -14,9 +14,11 @@ requirements:
   build:
     - python
     - setuptools
+    - sphinx
 
   run:
     - python
+    - sphinx
 
 test:
   imports:

@@ -1,11 +1,11 @@
 package:
   name: radon
-  version: "1.3.0"
+  version: "1.4.0"
 
 source:
-  fn: radon-1.3.0.tar.gz
-  url: https://pypi.python.org/packages/source/r/radon/radon-1.3.0.tar.gz
-  md5: c85e93d17d629d8a0db94d61a254d974
+  fn: radon-1.4.0.tar.gz
+  url: https://pypi.python.org/packages/99/f9/31a0a3eb9e63bd8e3a3c44b4c676bf051ec05273ed09dcf00695ee8df318/radon-1.4.0.tar.gz
+  md5: 52d5ab0564ceff5edb9b38d8c49cf544
 
 build:
   entry_points:
@@ -17,13 +17,13 @@ requirements:
   build:
     - python
     - setuptools
-    - mando
-    - colorama
+    - mando <0.4
+    - colorama <0.4
 
   run:
     - python
-    - mando
-    - colorama
+    - mando <0.4
+    - colorama <0.4
 
 test:
   imports:

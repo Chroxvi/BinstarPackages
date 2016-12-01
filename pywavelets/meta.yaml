@@ -1,11 +1,11 @@
 package:
   name: pywavelets
-  version: "0.5.0"
+  version: "0.5.1"
 
 source:
-  fn: PyWavelets-0.5.0.tar.gz
-  url: https://pypi.python.org/packages/e6/e7/cf124a5444cfc86592c7a5d85aedf3d73954395b58d1992f1b2b974bf3bc/PyWavelets-0.5.0.tar.gz
-  md5: a1498dcb4ce78b0e7eeaf840db781805
+  fn: PyWavelets-0.5.1.tar.gz
+  url: https://pypi.python.org/packages/af/a7/310108f76adc8d4d91a7b685bc37f62d5b3475f72b31f20730cfdee68534/PyWavelets-0.5.1.tar.gz
+  md5: 7a0388f56dbbbea037c779bc3fd32c33
 
 build:
   number: 0
